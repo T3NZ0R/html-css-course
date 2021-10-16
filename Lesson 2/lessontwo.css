@@ -1,0 +1,54 @@
+body, html{
+    background: #b1e898;
+    scroll-behavior: smooth;
+    margin: unset;
+}
+
+.target{
+    font-size: 30px;
+}
+
+img{
+    border: 5px black solid;
+}
+
+img:hover{
+
+    width: 1470px;
+    height: 700px;
+}
+
+.line{
+    background: black;
+    height: 5px;
+}
+
+ul.target{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background: black;
+    color: #60f51b;
+    margin-left: 40px;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.list{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.list, .target, .description, img{
+    margin-left: 20px;
+}
