@@ -1,0 +1,76 @@
+body, html{
+    background: white;
+    scroll-behavior: smooth;
+    margin: unset;
+    font-family: "Century Gothic";
+}
+
+.target{
+    font-size: 30px;
+}
+
+img{
+    border: 5px black solid;
+    margin-bottom: 30px;
+}
+
+img:hover{
+
+    width: 1470px;
+    height: 700px;
+}
+
+ul.target{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #394972;
+    color: #91ff01;
+    border: #91ff01 3px solid;
+    margin-left: 40px;
+}
+
+.description{
+    font-size: 20px;
+
+}
+
+.list{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.list, .target, .description, img{
+    margin-left: 20px;
+}
+
+li.target{
+    margin-bottom: 10px;
+}
+
+.wrap{
+    background: #91ff01;
+    border-bottom: 3px solid black;
+    margin-bottom: 40px;
+
+}
+
+.h{
+    height: 80px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.z{
+    height: 40px;
+}
+
+
