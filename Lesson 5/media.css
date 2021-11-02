@@ -1,0 +1,60 @@
+@media screen and (max-width: 376px) {
+
+    .header__contacts {
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-right: 0;
+    }
+
+    .header__bottom > .button {
+        width: 25%;
+    }
+
+    .header__nav {
+        font-size: 15px;
+        font-weight: bolder;
+        margin-right: 20px;
+    }
+
+    .header__center {
+        align-items: center;
+    }
+
+    .header__center > .button {
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+    .header__description {
+        width: 80%;
+    }
+
+    .header__bottom {
+        padding-bottom: 50px;
+    }
+
+    .main__border {
+        padding: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .catalog__item {
+        width: 90%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .icon {
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,259 @@
+@media screen and (max-width: 376px) {
+
+
+    .header__top {
+        margin-top: 15px;
+    }
+
+    .header__logo {
+        margin-left: 10px;
+    }
+
+    .header__logo > img {
+        width: 50px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .nav__lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 30px;
+        height: 30px;
+    }
+
+    .line {
+        height: 14%;
+        width: 100%;
+        background: #FF7400;
+        border-radius: 2px;
+    }
+
+    .header__top {
+        margin-right: 15px;
+    }
+
+    .header__title {
+        width: 100%;
+    }
+
+    .title-1 {
+        display: none;
+    }
+
+    .title-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-2 > h1, .title-2 > h2 {
+        color: #D67E35;
+    }
+
+    .title-2 > h1 {
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+    }
+
+    .title-2 > h2 {
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+    }
+
+    .title-2 p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-2 > .nav__button {
+        margin-bottom: 150px;
+    }
+
+    .main__benefits {
+        width: 87%;
+        left: 25px;
+    }
+
+    .benefits__item {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .benefit__description {
+        font-size: 20px;
+    }
+
+    .main__history {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .history {
+        width: 100%;
+    }
+
+    .history__title {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .history__description {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .history__bottom {
+        flex-direction: column;
+        row-gap: 30px;
+        padding-bottom: 300px;
+    }
+
+    .img-1 {
+        width: 114px;
+        height: 84px;
+        left: 188px;
+        top: 2519px;
+    }
+
+    .img-2 {
+        left: 137px;
+        top: 2502px;
+    }
+
+    .img-2 > img {
+        width: 137px;
+        height: 222px;
+    }
+
+    .img-3 {
+        left: 193px;
+        top: 2603px;
+    }
+
+    .img-3 > img {
+        width: 120px;
+        height: 175px;
+    }
+
+    .img-4 {
+        left: 50px;
+        top: 2505px;
+    }
+
+    .img-4 > img {
+        width: 140px;
+        height: 170px;
+    }
+
+    .discount__description {
+        font-size: 30px;
+        left: 40px;
+        width: 25%;
+        bottom: 300px;
+    }
+
+    .discount__description > p {
+        font-size: 21px;
+    }
+
+    .main__discount > .nav__button {
+        left: 80px;
+        bottom: 270px;
+    }
+
+    .menu__title {
+        font-size: 54px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu__top{
+        flex-wrap: wrap;
+    }
+
+    .menu__bg{
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .box-price  > .vector{
+        display: none;
+    }
+
+    .box-price{
+        flex-direction: column;
+    }
+
+    .burger > img{
+        margin-left: 20px;
+    }
+
+    .del{
+        display: none;
+    }
+
+    .menu__items{
+        justify-content: center;
+    }
+
+    .menu__item{
+        width: 80%;
+        margin-right: 70px;
+    }
+
+    .menu__bottom > p{
+        margin-right: 70px;
+    }
+    .review{
+        width: 90%;
+    }
+
+    .review__nav {
+        width: 15%;
+    }
+
+    .gallery__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food, .food-1, .food-2, .food__top, .food__bottom, .workers{
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .food-1 > img, .food-2 > img, .food__bottom > img,.food__top > img{
+        width: 340px;
+    }
+
+    .food:before,
+    .food:after{
+        display: none;
+    }
+
+    .workers{
+        margin-right: 50px;
+    }
+
+
+
+}
