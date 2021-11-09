@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+.header__nav {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-right: 40px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.btn-secondary {
+    background: none;
+    color: black;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: none;
+    color: #2E75FF;
+    border: solid #2E75FF 1px;
+}
+
+.dropdown-toggle::after {
+    content: url("image/main/Vector 2.png");
+    border: none;
+}
+
+#dropdownMenuButton1::after {
+    content: url("image/main/Vector 3.png");
+}
+
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.header__bottom {
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+}
+
+.header__item {
+    width: 50%;
+    flex-direction: column;
+}
+
+.line {
+    background: #EDEFF3;
+    height: 14px;
+    width: 225px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 150px;
+}
+
+.header__description {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__description > h1 {
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1652AC;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.header__description > p {
+    width: 65%;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+    line-height: 32px;
+}
+
+.header__img {
+    display: flex;
+    justify-content: center;
+}
+
+.header__description > h2 {
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1652AC;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text {
+    width: 60%;
+    margin-bottom: 50px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    margin-left: 200px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBFBFC;
+}
+
+.main__top {
+    display: flex;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+
+.top__description {
+    font-style: normal;
+    color: #FBFDFF;
+}
+
+.top__description > h1 {
+    font-family: "BBC Reith Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.top__description > .text {
+    width: 47%;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    margin-left: 250px;
+}
+
+.main__info {
+    display: flex;
+    background: #FBFBFC;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 150px;
+}
+
+.info > h1 {
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+
+.info > .text {
+    width: 64%;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+.info__img {
+    width: 50%;
+    position: absolute;
+    top: 1810px;
+    left: 673px;
+}
+
+.main__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBFBFC;
+}
+
+.title {
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    color: #020303;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.menu__items {
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    margin-bottom: 100px;
+}
+
+.menu__item {
+    width: 400px;
+    height: 135px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 16px;
+    background: white;
+
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #45494F;
+}
+
+.menu__item > img {
+    height: 42px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.main__benefits {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.benefits__info {
+    width: 40%;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.info__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.carousel {
+    width: 90%;
+    left: 30px;
+    margin-bottom: 120px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 0;
+    border-radius: 50%;
+    background: #80ABFF;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background: white;
+    height: 70px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: unset;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon > img, .carousel-control-next-icon > img {
+    width: 33px;
+    height: 40px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 32%;
+
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    background: white;
+    border-top: #EEF0F4 solid 2px;
+}
+
+.footer__top {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.footer__title {
+    width: 70%;
+    padding-top: 150px;
+    text-align: center;
+    font-family: "BBC Reith Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.colorText {
+    color: #0575f4;
+}
+
+.colorText-2 {
+    color: black;
+}
+
+.footer__info > .text {
+    margin-left: 0;
+}
+
+.btn-primary > img {
+    position: relative;
+    right: 35px;
+}
+
+.footer__logo > img {
+    position: relative;
+    top: 150px;
+    right: 120px;
+}
+
+.footer__bottom {
+    width: 100%;
+    border-top: #EEF0F4 solid 2px;
+}
+
+.footer__contacts {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.contact__item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}
+
+.item__description{
+    margin-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #9EABBB;
+}
+.end{
+    margin-top: 75px;
+}
+.none{
+    display: none;
+}
