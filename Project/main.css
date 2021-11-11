@@ -144,7 +144,7 @@
 }
 
 .info__wrap > .time, .info__wrap > .place, .info__wrap > .whatsapp, .info__wrap > .contacts__number {
-    margin-left: 60px;
+    margin-left: 34px;
 }
 
 #search1 {
@@ -1146,4 +1146,8 @@ li {
 
 .toast-header > .btn-close{
     align-self: flex-start;
+}
+
+.fixed__menu{
+    display: none;
 }
