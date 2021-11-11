@@ -554,7 +554,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 .action__item > p {

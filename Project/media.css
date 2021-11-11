@@ -174,7 +174,7 @@
 
     .main__actions {
         flex-direction: row;
-        width: 90%;
+        width: 100%;
     }
 
     .carousel {
@@ -290,7 +290,7 @@
     }
 
     .main__carousel > .carousel {
-        width: 100%;
+        width: 97%;
     }
 
     .filter > .btn-secondary {
@@ -399,6 +399,7 @@
 
     .footer {
         flex-direction: column;
+        padding-bottom: 180px;
     }
 
     .ml50, .ml150 {
@@ -434,4 +435,55 @@
     .footer__description {
         margin-top: 1360px;
     }
+
+    .fixed__menu {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        justify-content: space-evenly;
+        bottom: 0;
+        z-index: 2;
+        background: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .menu__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link__num {
+        position: absolute;
+        bottom: 58px;
+
+        margin-left: 25px;
+        border-radius: 50%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4px;
+        padding-left: 4px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 9px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: #005BB9;
+        color: white;
+    }
+
+    .hidden {
+        position: relative;
+        overflow-x: hidden;
+    }
+
+
+
+
 }
